@@ -13,5 +13,7 @@
     <modules>
         <module>firstms</module>
         <module>secondms</module>
+        <module>eurekaServer</module>
+        <module>gestion-reservation</module>
     </modules>
 </project>
