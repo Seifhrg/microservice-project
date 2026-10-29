@@ -18,7 +18,6 @@ public class Reservation {
     private boolean estValide;
     private Long studentId;
 
-    // Empty constructor: JPA needs it
     public Reservation() {
     }
 

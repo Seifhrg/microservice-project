@@ -6,12 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 import java.time.LocalDate;
 import java.util.stream.Stream;
 
 @SpringBootApplication
 @EnableDiscoveryClient
+@EnableFeignClients
 public class GestionReservationApplication {
 
     public static void main(String[] args) {
